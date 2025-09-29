@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/netflix\ background.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    background-color: white;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+
+}
+
+.btn-red-get {
+    padding: 10px 35px;
+    background-color: white;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+.btn-red-sign {
+    padding: 3px 8px;
+    background-color: white;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+.main input {
+
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.text {
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.more {
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 20px;
+
+}
+
+.box1 {
+    background-color: rgb(57,56,57);
+    height: 40vh;
+    width: 20vw;
+    position: relative;
+    z-index: 10;
+    border-radius: 12px;
+      color: white;
+}
+
+.box2 {
+    background-color: rgb(57,56,57);
+    height: 40vh;
+    width: 20vw;
+    position: relative;
+    z-index: 10;
+    border-radius: 12px;
+      color: white;
+}
+
+.box3 {
+    background-color: rgb(57,56,57);
+    height: 40vh;
+    width: 20vw;
+    position: relative;
+    z-index: 10;
+    border-radius: 12px;
+    color: white;
+}
+
+.box4 {
+    background-color: rgb(57,56,57);
+    height: 40vh;
+    width: 20vw;
+    position: relative;
+    z-index: 10;
+    border-radius: 12px;
+      color: white;
+}
+
+.box1 h2 {
+    padding: 20px;
+}
+
+.box1 h5 {
+    padding: 20px;
+}
+
+.box2 h5 {
+    padding: 20px;
+}
+
+.box2 h2 {
+    padding: 20px;
+}
+
+.box3 h5 {
+    padding: 20px;
+}
+
+.box3 h2 {
+    padding: 20px;
+}
+
+.box4 h2 {
+    padding: 20px;
+}
+
+.box4 h5 {
+    padding: 20px;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 250px;
+    max-width: 70vw;
+    gap: 8px;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+
+.x1 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.x2 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.x3 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.x4 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.x5 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
+
+.x6 {
+    background-color: gray;
+    height: 60px;
+    padding-left: 50px;
+}
